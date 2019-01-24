@@ -1,4 +1,4 @@
-from asteroid_smasher_model import *
+from asteroid_smasher import *
 
 
 def main():

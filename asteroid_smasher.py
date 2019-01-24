@@ -187,7 +187,7 @@ class ExplosionSprite(arcade.Sprite):
 class MyGame(arcade.Window):
     """ Main application class. """
 
-    def __init__(self, verbose=True):
+    def __init__(self, verbose=False):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT)
 
         # Set the working directory (where we expect to find files) to the same
